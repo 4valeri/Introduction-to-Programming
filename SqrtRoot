@@ -1,0 +1,10 @@
+using System;
+
+    class SqrtRoot
+{
+        static void Main()
+        {
+        Console.WriteLine(Math.Sqrt(12345));
+        }
+    }
+
