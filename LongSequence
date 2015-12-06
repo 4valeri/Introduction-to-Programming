@@ -1,0 +1,23 @@
+using System;
+
+class LongSequence
+{
+    static void Main()
+    {
+        for (int i = 2; i < 1001; i++)
+        {
+            if (i % 2 == 0 && i != 1001)
+            {
+                Console.Write(i + ",");
+            }
+            else if (i % 2 != 0 && i != 1001)
+            {
+                Console.Write("-{0},", i);
+            }
+            else
+            {
+                Console.WriteLine("-{0}", i);
+            }
+        }
+    }
+}
