@@ -1,0 +1,10 @@
+using System;
+
+    class CurrectDateTime
+    {
+        static void Main()
+        {
+        Console.WriteLine(DateTime.Now);
+        }
+    }
+
